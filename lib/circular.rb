@@ -1,5 +1,5 @@
 require 'userinput'
-require 'keychain'
+require 'keychain' if RUBY_PLATFORM.match(/darwin/)
 
 ##
 # Define circular module
