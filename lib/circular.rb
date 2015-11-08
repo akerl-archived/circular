@@ -16,7 +16,7 @@ module Circular
     private
 
     def lookup_token(domain)
-      next unless RUBY_PLATFORM.match(/darwin/)
+      return unless RUBY_PLATFORM.match(/darwin/)
       entry = Keychain.open(Keychain.default.path).internet_passwords.where(
         service: domain
       ).first
