@@ -1,4 +1,6 @@
 module Circular
+  ##
+  # API wrapper class
   class API
     DEFAULT_DOMAIN = 'circleci.com'
     DEFAULT_PATH = 'api/v1'
