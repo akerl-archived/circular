@@ -8,7 +8,7 @@ circular
 [![Code Quality](https://img.shields.io/codacy/c4e71c44d9d9498dbebe4ea1db979f59.svg)](https://www.codacy.com/app/akerl/circular)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
-CirceCI API gem
+CircleCI API gem
 
 ## Usage
 
