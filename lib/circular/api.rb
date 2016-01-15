@@ -1,9 +1,10 @@
+# frozen_string_literal: true
 module Circular
   ##
   # API wrapper class
   class API
-    DEFAULT_DOMAIN = 'circleci.com'
-    DEFAULT_PATH = 'api/v1'
+    DEFAULT_DOMAIN = 'circleci.com'.freeze
+    DEFAULT_PATH = 'api/v1'.freeze
 
     def initialize(params = {})
       @options = params

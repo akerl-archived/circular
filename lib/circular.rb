@@ -1,5 +1,5 @@
 require 'userinput'
-require 'keychain' if RUBY_PLATFORM.match(/darwin/)
+require 'keychain' if RUBY_PLATFORM =~ /darwin/
 
 ##
 # Define circular module
@@ -16,7 +16,7 @@ module Circular
     private
 
     def lookup_token(domain)
-      return unless RUBY_PLATFORM.match(/darwin/)
+      return unless RUBY_PLATFORM =~ /darwin/
       entry = Keychain.open(Keychain.default.path).internet_passwords.where(
         service: domain
       ).first
