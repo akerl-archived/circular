@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'circular'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = Time.now.strftime('%Y-%m-%d')
 
   s.summary     = ''
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.test_files  = `git ls-files spec/*`.split
 
   s.add_dependency 'userinput', '~> 1.0.0'
-  s.add_dependency 'keylime', '~> 0.0.1'
+  s.add_dependency 'keylime', '~> 0.0.3'
 
   s.add_development_dependency 'rubocop', '~> 0.39.0'
   s.add_development_dependency 'rake', '~> 11.1.0'
