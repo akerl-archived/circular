@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.test_files  = `git ls-files spec/*`.split
 
   s.add_dependency 'userinput', '~> 1.0.0'
-  s.add_dependency 'keylime', '~> 0.0.3'
+  s.add_dependency 'keylime', '~> 0.1.0'
 
   s.add_development_dependency 'rubocop', '~> 0.49.0'
   s.add_development_dependency 'rake', '~> 12.0.0'
